@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Información de Películas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Aplicación de Información de Películas</h1>
+            <input type="text" id="search-input" placeholder="Buscar películas...">
+            <button id="search-button">Buscar</button>
+        </header>
+        <main>
+            <section id="movie-list">
+                <h2>Películas Populares</h2>
+                <ul id="movies"></ul>
+            </section>
+            <section id="movie-details" class="hidden">
+                <h2>Detalles de la Película</h2>
+                <div id="details"></div>
+                <button id="add-to-favorites">Agregar a Favoritos</button>
+            </section>
+            <section id="favorites">
+                <h2>Películas Favoritas</h2>
+                <ul id="favorites-list"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
