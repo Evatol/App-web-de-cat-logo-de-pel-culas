@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#movies li,
+#favorites-list li {
+    margin-bottom: 10px;
+}
+
+#movies img {
+    max-width: 150px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+#details {
+    margin-bottom: 20px;
+}
+
+#details img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+ 
